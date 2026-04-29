@@ -2,13 +2,12 @@ import { motion } from 'framer-motion';
 import SectionTitle from './ui/SectionTitle';
 import { ExternalLink } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
-import { a } from 'framer-motion/client';
 
 const projects = [
   {
     title: "Bill Flow",
     description: "A robust mobile application built with Flutter to streamline billing and management processes. It features real-time data synchronization, intuitive UI/UX, and comprehensive reporting capabilities for small businesses.",
-    image: "./certificate/BillFlow.png",
+    image: "/certificate/Billflow.png",
     tags: ["Flutter", "Dart", "Firebase", "State Management"],
     github: "https://github.com/TirthPanchal-06/BillFlow",
     live: ""
@@ -16,7 +15,7 @@ const projects = [
   {
     title: "Car Maintenance System",
     description: "A comprehensive vehicle service management system for auto repair shops to handle customer bookings, track maintenance history, manage inventory, and generate service invoices efficiently.",
-    image: "certificate/car_maint.avif",
+    image: "/certificate/car_maint.avif",
     tags: ["Django", "Python", "PostgreSQL", "Bootstrap"],
     github: "https://github.com/TirthPanchal-06/CarMaintenanceSystem",
     live: ""

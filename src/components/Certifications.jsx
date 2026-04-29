@@ -38,7 +38,7 @@ const Certifications = () => {
               <div className="h-32 bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center border-b border-slate-200 dark:border-slate-700 relative overflow-hidden">
                 <div className="absolute inset-0 bg-primary-500/5 group-hover:bg-primary-500/10 transition-colors" />
                 {cert.type === 'img' ? (
-                  <img src={`/certificates/${cert.filename}`} alt={cert.name} className="h-full w-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
+                  <img src={`/certificate/${cert.filename}`} alt={cert.name} className="h-full w-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
                 ) : (
                   <Award size={48} className="text-primary-400 dark:text-primary-600/50 group-hover:scale-110 transition-transform" />
                 )}
@@ -54,7 +54,7 @@ const Certifications = () => {
                 
                 <div className="mt-auto grid grid-cols-2 gap-2 pt-4 border-t border-slate-100 dark:border-slate-800/50">
                   <a 
-                    href={`/certificates/${cert.filename}`} 
+                    href={`/certificate/${cert.filename}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-1.5 text-xs font-semibold py-2 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -62,7 +62,7 @@ const Certifications = () => {
                     <Eye size={14} /> Preview
                   </a>
                   <a 
-                    href={`/certificates/${cert.filename}`} 
+                    href={`/certificate/${cert.filename}`} 
                     download
                     className="flex items-center justify-center gap-1.5 text-xs font-semibold py-2 rounded-md bg-primary-500 text-white hover:bg-primary-600 transition-colors shadow-sm"
                   >

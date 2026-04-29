@@ -74,9 +74,7 @@ const Hero = () => {
             {/* Using a placeholder gradient blob or actual image */}
             <div className="absolute inset-0 bg-gradient-to-tr from-primary-500 to-violet-500 rounded-full blur-2xl opacity-50 animate-pulse" />
             <div className="absolute inset-2 bg-slate-900 rounded-full border-4 border-white/10 overflow-hidden shadow-2xl glass flex items-center justify-center">
-              <span className="text-white text-8xl font-bold opacity-100">
-                <img src="/certificate/logoimage.jpeg" alt="" />
-              </span>
+              <img src="/certificate/logoimage.jpeg" alt="Tirth Panchal" className="w-full h-full object-cover" />
             </div>
 
             {/* Floating badges */}

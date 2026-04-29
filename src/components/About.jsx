@@ -23,9 +23,7 @@ const About = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl group">
               <div className="absolute inset-0 bg-primary-600/20 group-hover:bg-transparent transition-all duration-500 z-10" />
               <div className="aspect-[4/3] bg-gradient-to-br from-slate-200 to-slate-300 dark:from-slate-800 dark:to-slate-700 flex items-center justify-center">
-                <span className="text-slate-400 text-lg">
-                  <img src="./certificate/about.avif" alt="" />
-                </span>
+                <img src="/certificate/about.avif" alt="About Me" className="w-full h-full object-cover" />
               </div>
             </div>
           </motion.div>
